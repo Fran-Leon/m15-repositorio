@@ -1,0 +1,56 @@
+/* Todos los elementos de la pagina */
+*{
+  font-size: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+*{
+  font-family: "Rock Salt", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+
+/* Todos los parrafos de la pagina */
+p{
+   color: blue;
+ }
+
+/* Todos los párrafos contenidos en "primero" */
+#primero p
+{
+  color: red;
+}
+
+/* Todos los enlaces la pagina */
+a
+{
+  color: rgb(157, 255, 0);
+}
+
+a:hover
+{
+  color: rgb(255, 238, 0);
+}
+
+
+
+/* Los elementos "em" contenidos en "primero" */
+#primero
+{
+  background-color: #FFFFCC;
+}
+
+/* Todos los elementos "em" de clase "especial" en toda la pagina */
+.especial
+{
+  background-color: #FFCC99;
+}
+
+/* Elementos "span" contenidos en la clase normal */
+.normal
+{
+  font-weight: bold;
+}
